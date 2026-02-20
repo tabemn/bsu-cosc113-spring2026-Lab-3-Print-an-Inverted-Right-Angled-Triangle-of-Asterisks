@@ -19,11 +19,11 @@ public class InvertedTriangle {
 
         for (int i = height; i >= 1; i--) {
             
-            // The inner loop handles printing the stars for that specific row
+           // The inner loop handles printing the stars for that specific row
 
-            for (int j = 1; j <= i; j++) {
+           for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
-            }
+           }
             
             // Move to the next line after finishing a row
 
